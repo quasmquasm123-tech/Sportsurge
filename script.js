@@ -359,99 +359,238 @@ const MANUAL_EVENTS = {
   ],
 
   nba: [
-    {
-      id: "nba_1",
-      title: "Oklahoma City Thunder vs Indiana Pacers",
-      time: "4:00 AM",
-      league: "NBA",
-      status: "upcoming",
-      date: new Date("2025-10-12T04:00:00-04:00"),
-      homeTeam: {
-        name: "Indiana Pacers",
-        logo: "https://a.espncdn.com/i/teamlogos/nba/500/ind.png",
-      },
-      awayTeam: {
-        name: "Oklahoma City Thunder",
-        logo: "https://a.espncdn.com/i/teamlogos/nba/500/okc.png",
-      },
-      channels: [
-        {
-          name: "NBA TV",
-          embedUrl: "https://topembed.pw/channel/nbatv",
-          quality: "HD",
-        },
-      ],
+  {
+    id: "nba_1",
+    title: "Oklahoma City Thunder vs Indiana Pacers",
+    time: "4:00 AM",
+    league: "NBA",
+    status: "upcoming",
+    date: new Date("2025-10-12T04:00:00"),
+    homeTeam: {
+      name: "Indiana Pacers",
+      logo: "https://a.espncdn.com/i/teamlogos/nba/500/ind.png"
     },
-    {
-      id: "nba_2",
-      title: "Atlanta Hawks vs Memphis Grizzlies",
-      time: "5:00 AM",
-      league: "NBA",
-      status: "upcoming",
-      date: new Date("2025-10-12T05:00:00-04:00"),
-      homeTeam: {
-        name: "Memphis Grizzlies",
-        logo: "https://a.espncdn.com/i/teamlogos/nba/500/mem.png",
-      },
-      awayTeam: {
-        name: "Atlanta Hawks",
-        logo: "https://a.espncdn.com/i/teamlogos/nba/500/atl.png",
-      },
-      channels: [
-        {
-          name: "NBA League Pass",
-          embedUrl: "https://topembed.pw/channel/nba",
-          quality: "HD",
-        },
-      ],
+    awayTeam: {
+      name: "Oklahoma City Thunder",
+      logo: "https://a.espncdn.com/i/teamlogos/nba/500/okc.png"
     },
-    {
-      id: "nba_3",
-      title: "Charlotte Hornets vs Dallas Mavericks",
-      time: "5:30 AM",
-      league: "NBA",
-      status: "upcoming",
-      date: new Date("2025-10-12T05:30:00-04:00"),
-      homeTeam: {
-        name: "Dallas Mavericks",
-        logo: "https://a.espncdn.com/i/teamlogos/nba/500/dal.png",
-      },
-      awayTeam: {
-        name: "Charlotte Hornets",
-        logo: "https://a.espncdn.com/i/teamlogos/nba/500/cha.png",
-      },
-      channels: [
-        {
-          name: "NBA League Pass",
-          embedUrl: "https://topembed.pw/channel/nba",
-          quality: "HD",
-        },
-      ],
+    channels: [
+      {
+        name: "NBA TV",
+        embedUrl: "https://topembed.pw/channel/NBATV[USA]",
+        quality: "HD"
+      }
+    ]
+  },
+  {
+    id: "nba_2",
+    title: "Atlanta Hawks vs Memphis Grizzlies",
+    time: "5:00 AM",
+    league: "NBA",
+    status: "upcoming",
+    date: new Date("2025-10-12T05:00:00"),
+    homeTeam: {
+      name: "Memphis Grizzlies",
+      logo: "https://a.espncdn.com/i/teamlogos/nba/500/mem.png"
     },
-    {
-      id: "nba_4",
-      title: "Brooklyn Nets vs Phoenix Suns",
-      time: "4:00 PM",
-      league: "NBA",
-      status: "upcoming",
-      date: new Date("2025-10-12T16:00:00-04:00"),
-      homeTeam: {
-        name: "Phoenix Suns",
-        logo: "https://a.espncdn.com/i/teamlogos/nba/500/phx.png",
-      },
-      awayTeam: {
-        name: "Brooklyn Nets",
-        logo: "https://a.espncdn.com/i/teamlogos/nba/500/bkn.png",
-      },
-      channels: [
-        {
-          name: "ESPN",
-          embedUrl: "https://topembed.pw/channel/espn",
-          quality: "HD",
-        },
-      ],
+    awayTeam: {
+      name: "Atlanta Hawks",
+      logo: "https://a.espncdn.com/i/teamlogos/nba/500/atl.png"
     },
-  ],
+    channels: [
+      {
+        name: "ESPN",
+        embedUrl: "https://topembed.pw/channel/ESPN[USA]",
+        quality: "HD"
+      }
+    ]
+  },
+  {
+    id: "nba_3",
+    title: "Charlotte Hornets vs Dallas Mavericks",
+    time: "5:30 AM",
+    league: "NBA",
+    status: "upcoming",
+    date: new Date("2025-10-12T05:30:00"),
+    homeTeam: {
+      name: "Dallas Mavericks",
+      logo: "https://a.espncdn.com/i/teamlogos/nba/500/dal.png"
+    },
+    awayTeam: {
+      name: "Charlotte Hornets",
+      logo: "https://a.espncdn.com/i/teamlogos/nba/500/cha.png"
+    },
+    channels: [
+      {
+        name: "ESPN",
+        embedUrl: "https://topembed.pw/channel/ESPN[USA]",
+        quality: "HD"
+      }
+    ]
+  },
+  {
+    id: "nba_4",
+    title: "Brooklyn Nets vs Phoenix Suns (NBA China Game)",
+    time: "4:00 PM",
+    league: "NBA",
+    status: "upcoming",
+    date: new Date("2025-10-12T16:00:00"),
+    homeTeam: {
+      name: "Phoenix Suns",
+      logo: "https://a.espncdn.com/i/teamlogos/nba/500/phx.png"
+    },
+    awayTeam: {
+      name: "Brooklyn Nets",
+      logo: "https://a.espncdn.com/i/teamlogos/nba/500/bkn.png"
+    },
+    channels: [
+      {
+        name: "NBA TV",
+        embedUrl: "https://topembed.pw/channel/NBATV[USA]",
+        quality: "HD"
+      }
+    ]
+  },
+  {
+    id: "nba_5",
+    title: "Toronto Raptors vs Washington Wizards",
+    time: "12:00 AM",
+    league: "NBA",
+    status: "upcoming",
+    date: new Date("2025-10-13T00:00:00"),
+    homeTeam: {
+      name: "Washington Wizards",
+      logo: "https://a.espncdn.com/i/teamlogos/nba/500/wsh.png"
+    },
+    awayTeam: {
+      name: "Toronto Raptors",
+      logo: "https://a.espncdn.com/i/teamlogos/nba/500/tor.png"
+    },
+    channels: [
+      {
+        name: "NBA TV",
+        embedUrl: "https://topembed.pw/channel/NBATV[USA]",
+        quality: "HD"
+      }
+    ]
+  },
+  {
+    id: "nba_6",
+    title: "Miami Heat vs Orlando Magic",
+    time: "3:00 AM",
+    league: "NBA",
+    status: "upcoming",
+    date: new Date("2025-10-13T03:00:00"),
+    homeTeam: {
+      name: "Orlando Magic",
+      logo: "https://a.espncdn.com/i/teamlogos/nba/500/orl.png"
+    },
+    awayTeam: {
+      name: "Miami Heat",
+      logo: "https://a.espncdn.com/i/teamlogos/nba/500/mia.png"
+    },
+    channels: [
+      {
+        name: "ESPN",
+        embedUrl: "https://topembed.pw/channel/ESPN[USA]",
+        quality: "HD"
+      }
+    ]
+  },
+  {
+    id: "nba_7",
+    title: "Cleveland Cavaliers vs Boston Celtics",
+    time: "4:00 AM",
+    league: "NBA",
+    status: "upcoming",
+    date: new Date("2025-10-13T04:00:00"),
+    homeTeam: {
+      name: "Boston Celtics",
+      logo: "https://a.espncdn.com/i/teamlogos/nba/500/bos.png"
+    },
+    awayTeam: {
+      name: "Cleveland Cavaliers",
+      logo: "https://a.espncdn.com/i/teamlogos/nba/500/cle.png"
+    },
+    channels: [
+      {
+        name: "ESPN",
+        embedUrl: "https://topembed.pw/channel/ESPN[USA]",
+        quality: "HD"
+      }
+    ]
+  },
+  {
+    id: "nba_8",
+    title: "Milwaukee Bucks vs Chicago Bulls",
+    time: "4:00 AM",
+    league: "NBA",
+    status: "upcoming",
+    date: new Date("2025-10-13T04:00:00"),
+    homeTeam: {
+      name: "Chicago Bulls",
+      logo: "https://a.espncdn.com/i/teamlogos/nba/500/chi.png"
+    },
+    awayTeam: {
+      name: "Milwaukee Bucks",
+      logo: "https://a.espncdn.com/i/teamlogos/nba/500/mil.png"
+    },
+    channels: [
+      {
+        name: "ESPN",
+        embedUrl: "https://topembed.pw/channel/ESPN[USA]",
+        quality: "HD"
+      }
+    ]
+  },
+  {
+    id: "nba_9",
+    title: "Denver Nuggets vs LA Clippers",
+    time: "6:30 AM",
+    league: "NBA",
+    status: "upcoming",
+    date: new Date("2025-10-13T06:30:00"),
+    homeTeam: {
+      name: "LA Clippers",
+      logo: "https://a.espncdn.com/i/teamlogos/nba/500/lac.png"
+    },
+    awayTeam: {
+      name: "Denver Nuggets",
+      logo: "https://a.espncdn.com/i/teamlogos/nba/500/den.png"
+    },
+    channels: [
+      {
+        name: "ESPN",
+        embedUrl: "https://topembed.pw/channel/ESPN[USA]",
+        quality: "HD"
+      }
+    ]
+  },
+  {
+    id: "nba_10",
+    title: "Golden State Warriors vs Los Angeles Lakers",
+    time: "6:30 AM",
+    league: "NBA",
+    status: "upcoming",
+    date: new Date("2025-10-13T06:30:00"),
+    homeTeam: {
+      name: "Los Angeles Lakers",
+      logo: "https://a.espncdn.com/i/teamlogos/nba/500/lal.png"
+    },
+    awayTeam: {
+      name: "Golden State Warriors",
+      logo: "https://a.espncdn.com/i/teamlogos/nba/500/gs.png"
+    },
+    channels: [
+      {
+        name: "ESPN",
+        embedUrl: "https://topembed.pw/channel/ESPN[USA]",
+        quality: "HD"
+      },
+    ],
+  },
+],
+
 
   mlb: [
     {
