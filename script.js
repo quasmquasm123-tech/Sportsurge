@@ -761,120 +761,236 @@ const MANUAL_EVENTS = {
   ],
 
   nhl: [
-    {
-      id: "nhl_1",
-      title: "Montreal Canadiens vs Toronto Maple Leafs",
-      time: "4:00 AM ET",
-      league: "NHL",
-      status: "upcoming",
-      date: new Date("2025-10-08T04:00:00-04:00"),
-      isLive: false,
-      isUpcoming: true,
-      homeTeam: {
-        name: "Toronto Maple Leafs",
-        logo: "https://a.espncdn.com/i/teamlogos/nhl/500/tor.png",
-        score: "0",
-      },
-      awayTeam: {
-        name: "Montreal Canadiens",
-        logo: "https://a.espncdn.com/i/teamlogos/nhl/500/mtl.png",
-        score: "0",
-      },
-      channels: [
-        {
-          name: "ESPN+",
-          embedUrl: "https://topembed.pw/channel/espnplus",
-          quality: "HD",
-        },
-        {
-          name: "NHL Network",
-          embedUrl: "https://topembed.pw/channel/nhl",
-          quality: "720p",
-        },
-      ],
+  {
+    id: "nhl_1",
+    title: "Los Angeles Kings vs Winnipeg Jets",
+    time: "10:30 PM",
+    league: "NHL",
+    status: "upcoming",
+    date: new Date("2025-10-11T22:30:00-04:00"),
+    homeTeam: {
+      name: "Winnipeg Jets",
+      logo: "https://a.espncdn.com/i/teamlogos/nhl/500/wpg.png"
     },
-    {
-      id: "nhl_2",
-      title: "Boston Bruins vs Washington Capitals",
-      time: "4:30 AM ET",
-      league: "NHL",
-      status: "upcoming",
-      date: new Date("2025-10-08T04:30:00-04:00"),
-      isLive: false,
-      isUpcoming: true,
-      homeTeam: {
-        name: "Washington Capitals",
-        logo: "https://a.espncdn.com/i/teamlogos/nhl/500/wsh.png",
-        score: "0",
-      },
-      awayTeam: {
-        name: "Boston Bruins",
-        logo: "https://a.espncdn.com/i/teamlogos/nhl/500/bos.png",
-        score: "0",
-      },
-      channels: [
-        {
-          name: "TNT",
-          embedUrl: "https://topembed.pw/channel/tnt",
-          quality: "HD",
-        },
-      ],
+    awayTeam: {
+      name: "Los Angeles Kings",
+      logo: "https://a.espncdn.com/i/teamlogos/nhl/500/la.png"
     },
-    {
-      id: "nhl_3",
-      title: "Calgary Flames vs Edmonton Oilers",
-      time: "7:00 AM ET",
-      league: "NHL",
-      status: "upcoming",
-      date: new Date("2025-10-08T07:00:00-04:00"),
-      isLive: false,
-      isUpcoming: true,
-      homeTeam: {
-        name: "Edmonton Oilers",
-        logo: "https://a.espncdn.com/i/teamlogos/nhl/500/edm.png",
-        score: "0",
-      },
-      awayTeam: {
-        name: "Calgary Flames",
-        logo: "https://a.espncdn.com/i/teamlogos/nhl/500/cgy.png",
-        score: "0",
-      },
-      channels: [
-        {
-          name: "Sportsnet",
-          embedUrl: "https://topembed.pw/channel/sportsnet",
-          quality: "HD",
-        },
-      ],
+    channels: [
+      { name: "ESPN+", embedUrl: "https://topembed.pw/channel/espnplus", quality: "HD" }
+    ]
+  },
+  {
+    id: "nhl_2",
+    title: "St. Louis Blues vs Calgary Flames",
+    time: "1:00 AM",
+    league: "NHL",
+    status: "upcoming",
+    date: new Date("2025-10-12T01:00:00-04:00"),
+    homeTeam: {
+      name: "Calgary Flames",
+      logo: "https://a.espncdn.com/i/teamlogos/nhl/500/cgy.png"
     },
-    {
-      id: "nhl_4",
-      title: "Los Angeles Kings vs Vegas Golden Knights",
-      time: "7:00 AM ET",
-      league: "NHL",
-      status: "upcoming",
-      date: new Date("2025-10-08T07:00:00-04:00"),
-      isLive: false,
-      isUpcoming: true,
-      homeTeam: {
-        name: "Vegas Golden Knights",
-        logo: "https://a.espncdn.com/i/teamlogos/nhl/500/vgs.png",
-        score: "0",
-      },
-      awayTeam: {
-        name: "Los Angeles Kings",
-        logo: "https://a.espncdn.com/i/teamlogos/nhl/500/la.png",
-        score: "0",
-      },
-      channels: [
-        {
-          name: "ESPN",
-          embedUrl: "https://topembed.pw/channel/espn",
-          quality: "HD",
-        },
-      ],
+    awayTeam: {
+      name: "St. Louis Blues",
+      logo: "https://a.espncdn.com/i/teamlogos/nhl/500/stl.png"
     },
-  ],
+    channels: [
+      { name: "ESPN+", embedUrl: "https://topembed.pw/channel/espnplus", quality: "HD" }
+    ]
+  },
+  {
+    id: "nhl_3",
+    title: "Buffalo Sabres vs Boston Bruins",
+    time: "4:00 AM",
+    league: "NHL",
+    status: "upcoming",
+    date: new Date("2025-10-12T04:00:00-04:00"),
+    homeTeam: {
+      name: "Boston Bruins",
+      logo: "https://a.espncdn.com/i/teamlogos/nhl/500/bos.png"
+    },
+    awayTeam: {
+      name: "Buffalo Sabres",
+      logo: "https://a.espncdn.com/i/teamlogos/nhl/500/buf.png"
+    },
+    channels: [
+      { name: "ESPN+", embedUrl: "https://topembed.pw/channel/espnplus", quality: "HD" }
+    ]
+  },
+  {
+    id: "nhl_4",
+    title: "Toronto Maple Leafs vs Detroit Red Wings",
+    time: "4:00 AM",
+    league: "NHL",
+    status: "upcoming",
+    date: new Date("2025-10-12T04:00:00-04:00"),
+    homeTeam: {
+      name: "Detroit Red Wings",
+      logo: "https://a.espncdn.com/i/teamlogos/nhl/500/det.png"
+    },
+    awayTeam: {
+      name: "Toronto Maple Leafs",
+      logo: "https://a.espncdn.com/i/teamlogos/nhl/500/tor.png"
+    },
+    channels: [
+      { name: "ESPN+", embedUrl: "https://topembed.pw/channel/espnplus", quality: "HD" }
+    ]
+  },
+  {
+    id: "nhl_5",
+    title: "New Jersey Devils vs Tampa Bay Lightning",
+    time: "4:00 AM",
+    league: "NHL",
+    status: "upcoming",
+    date: new Date("2025-10-12T04:00:00-04:00"),
+    homeTeam: {
+      name: "Tampa Bay Lightning",
+      logo: "https://a.espncdn.com/i/teamlogos/nhl/500/tb.png"
+    },
+    awayTeam: {
+      name: "New Jersey Devils",
+      logo: "https://a.espncdn.com/i/teamlogos/nhl/500/nj.png"
+    },
+    channels: [
+      { name: "ESPN+", embedUrl: "https://topembed.pw/channel/espnplus", quality: "HD" }
+    ]
+  },
+  {
+    id: "nhl_6",
+    title: "Ottawa Senators vs Florida Panthers",
+    time: "4:00 AM",
+    league: "NHL",
+    status: "upcoming",
+    date: new Date("2025-10-12T04:00:00-04:00"),
+    homeTeam: {
+      name: "Florida Panthers",
+      logo: "https://a.espncdn.com/i/teamlogos/nhl/500/fla.png"
+    },
+    awayTeam: {
+      name: "Ottawa Senators",
+      logo: "https://a.espncdn.com/i/teamlogos/nhl/500/ott.png"
+    },
+    channels: [
+      { name: "ESPN+", embedUrl: "https://topembed.pw/channel/espnplus", quality: "HD" }
+    ]
+  },
+  {
+    id: "nhl_7",
+    title: "Washington Capitals vs New York Islanders",
+    time: "4:00 AM",
+    league: "NHL",
+    status: "upcoming",
+    date: new Date("2025-10-12T04:00:00-04:00"),
+    homeTeam: {
+      name: "New York Islanders",
+      logo: "https://a.espncdn.com/i/teamlogos/nhl/500/nyi.png"
+    },
+    awayTeam: {
+      name: "Washington Capitals",
+      logo: "https://a.espncdn.com/i/teamlogos/nhl/500/wsh.png"
+    },
+    channels: [
+      { name: "ESPN+", embedUrl: "https://topembed.pw/channel/espnplus", quality: "HD" }
+    ]
+  },
+  {
+    id: "nhl_8",
+    title: "New York Rangers vs Pittsburgh Penguins",
+    time: "4:00 AM",
+    league: "NHL",
+    status: "upcoming",
+    date: new Date("2025-10-12T04:00:00-04:00"),
+    homeTeam: {
+      name: "Pittsburgh Penguins",
+      logo: "https://a.espncdn.com/i/teamlogos/nhl/500/pit.png"
+    },
+    awayTeam: {
+      name: "New York Rangers",
+      logo: "https://a.espncdn.com/i/teamlogos/nhl/500/nyr.png"
+    },
+    channels: [
+      { name: "ESPN+", embedUrl: "https://topembed.pw/channel/espnplus", quality: "HD" }
+    ]
+  },
+  {
+    id: "nhl_9",
+    title: "Philadelphia Flyers vs Carolina Hurricanes",
+    time: "4:00 AM",
+    league: "NHL",
+    status: "upcoming",
+    date: new Date("2025-10-12T04:00:00-04:00"),
+    homeTeam: {
+      name: "Carolina Hurricanes",
+      logo: "https://a.espncdn.com/i/teamlogos/nhl/500/car.png"
+    },
+    awayTeam: {
+      name: "Philadelphia Flyers",
+      logo: "https://a.espncdn.com/i/teamlogos/nhl/500/phi.png"
+    },
+    channels: [
+      { name: "ESPN+", embedUrl: "https://topembed.pw/channel/espnplus", quality: "HD" }
+    ]
+  },
+  {
+    id: "nhl_10",
+    title: "Montreal Canadiens vs Chicago Blackhawks",
+    time: "4:00 AM",
+    league: "NHL",
+    status: "upcoming",
+    date: new Date("2025-10-12T04:00:00-04:00"),
+    homeTeam: {
+      name: "Chicago Blackhawks",
+      logo: "https://a.espncdn.com/i/teamlogos/nhl/500/chi.png"
+    },
+    awayTeam: {
+      name: "Montreal Canadiens",
+      logo: "https://a.espncdn.com/i/teamlogos/nhl/500/mtl.png"
+    },
+    channels: [
+      { name: "NHL Network", embedUrl: "https://topembed.pw/channel/nhlnet", quality: "HD" }
+    ]
+  },
+  {
+    id: "nhl_11",
+    title: "Utah Hockey Club vs Nashville Predators",
+    time: "5:00 AM",
+    league: "NHL",
+    status: "upcoming",
+    date: new Date("2025-10-12T05:00:00-04:00"),
+    homeTeam: {
+      name: "Nashville Predators",
+      logo: "https://a.espncdn.com/i/teamlogos/nhl/500/nsh.png"
+    },
+    awayTeam: {
+      name: "Utah Hockey Club",
+      logo: "https://a.espncdn.com/i/teamlogos/nhl/500/uth.png"
+    },
+    channels: [
+      { name: "ESPN+", embedUrl: "https://topembed.pw/channel/espnplus", quality: "HD" }
+    ]
+  },
+  {
+    id: "nhl_12",
+    title: "Columbus Blue Jackets vs Minnesota Wild",
+    time: "5:00 AM",
+    league: "NHL",
+    status: "upcoming",
+    date: new Date("2025-10-12T05:00:00-04:00"),
+    homeTeam: {
+      name: "Minnesota Wild",
+      logo: "https://a.espncdn.com/i/teamlogos/nhl/500/min.png"
+    },
+    awayTeam: {
+      name: "Columbus Blue Jackets",
+      logo: "https://a.espncdn.com/i/teamlogos/nhl/500/cls.png"
+    },
+    channels: [
+      { name: "ESPN+", embedUrl: "https://topembed.pw/channel/espnplus", quality: "HD" }
+    ]
+  }
+],
+
 
   cfb: [
     {
