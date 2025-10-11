@@ -1,58 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
-  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  xmlns="www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://http://sportsurge-mma.site/</loc>
+    <loc>https://sportsurge-mma.site/</loc>
     <lastmod>2025-10-08</lastmod>
     <priority>1.00</priority>
   </url>
 
   <url>
-    <loc>https://http://sportsurge-mma.site/nba</loc>
+    <loc>https://sportsurge-mma.site/nba</loc>
     <lastmod>2025-10-08</lastmod>
     <priority>0.90</priority>
   </url>
 
   <url>
-    <loc>https://http://sportsurge-mma.site/nfl</loc>
+    <loc>https://sportsurge-mma.site/nfl</loc>
     <lastmod>2025-10-08</lastmod>
     <priority>0.90</priority>
   </url>
 
   <url>
-    <loc>https://http://sportsurge-mma.site/mlb</loc>
+    <loc>https://sportsurge-mma.site/mlb</loc>
     <lastmod>2025-10-08</lastmod>
     <priority>0.90</priority>
   </url>
 
   <url>
-    <loc>https://http://sportsurge-mma.site/nhl</loc>
+    <loc>https://sportsurge-mma.site/nhl</loc>
     <lastmod>2025-10-08</lastmod>
     <priority>0.85</priority>
   </url>
 
   <url>
-    <loc>https://http://sportsurge-mma.site/soccer</loc>
+    <loc>https://sportsurge-mma.site/soccer</loc>
     <lastmod>2025-10-08</lastmod>
     <priority>0.85</priority>
   </url>
 
   <url>
-    <loc>https://http://sportsurge-mma.site/mma</loc>
+    <loc>https://sportsurge-mma.site/mma</loc>
     <lastmod>2025-10-08</lastmod>
     <priority>0.80</priority>
   </url>
 
   <url>
-    <loc>https://http://sportsurge-mma.site/boxing</loc>
+    <loc>https://sportsurge-mma.site/boxing</loc>
     <lastmod>2025-10-08</lastmod>
     <priority>0.80</priority>
   </url>
 
   <url>
-    <loc>https://http://sportsurge-mma.site/stream.html</loc>
+    <loc>https://sportsurge-mma.site/stream.html</loc>
     <lastmod>2025-10-08</lastmod>
     <priority>0.70</priority>
   </url>
